@@ -9,6 +9,7 @@
 import Foundation
 
 public struct RichPresence: Encodable {
+    public var type: ActivityType = .gaming
     public var assets = Assets()
     public var details = ""
     public var instance = true

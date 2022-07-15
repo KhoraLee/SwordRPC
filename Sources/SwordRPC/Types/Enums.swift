@@ -33,3 +33,9 @@ public enum JoinReply {
     case yes
     case ignore
 }
+
+public enum ActivityType {
+  case gaming = 0
+  case listening = 2
+  case custom = 4
+}
