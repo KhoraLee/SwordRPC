@@ -34,7 +34,7 @@ public enum JoinReply {
     case ignore
 }
 
-public enum ActivityType {
+public enum ActivityType: Int, Codable {
   case gaming = 0
   case listening = 2
   case custom = 4
